@@ -1,12 +1,9 @@
 # aos-tests
 Test cases for the AOS projects.
-If you found these useful contribute by writing you own testscases and add them.
+If you use this testcases I expect you to contribute by writing you own testscases and add them.
 The testcase should just be a single c file (name it testX.c) and should terminate if successfull.
 Also print a description of the expected behaviour of your testcase.
-If you don't contribute I will assume that you did not find these useful and
-revoke your access...
-Also feel free to improve on how the tests are provided (unit tests or something
-if you like to). Prefered contribution methods are branching and pull request...
+Prefered contribution methods are branching and pull request...
 Hope this helps everybody.
 
 # Usage
