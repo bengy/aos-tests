@@ -24,5 +24,4 @@ This will generate executables with debug symbols included (you also have to
 generate the object files of your library with debug flags enables).
 
 # Further test cases to write
-More tests for mutex locks
-Tests for round robin
+More tests for mutex locks, tests for round robin working correctly...
