@@ -31,37 +31,37 @@ test1a: 5 pts
    Tests thread creation.
    Create a thread that prints "Hello World!" and exits by returning. Main
    loops forever.
-http://commons.wikimedia.org/wiki/File:Checkmark.svg (but no looping on main, we are exiting)
+![Check](http://commons.wikimedia.org/wiki/File:Checkmark.svg) (but no looping on main, we are exiting)
 
 test1b: 3 pts
    Tests thread argument passing.
    Create a thread that prints the argument passed to it and exits by
    returning. Main loops forever.
-http://commons.wikimedia.org/wiki/File:Checkmark.svg
+![Check](http://commons.wikimedia.org/wiki/File:Checkmark.svg)
 
 test1c: 3 pts
    Tests thread join and return value.
    Create a thread that returns a string. Main joins the thread and prints the
    returned value.
-http://commons.wikimedia.org/wiki/File:Checkmark.svg
+![Check](http://commons.wikimedia.org/wiki/File:Checkmark.svg)
 
 test2a: 5 pts
    Tests thread termination with gthread_exit.
    Create a thread that prints "thr1 exiting..." and exits by calling
    gthread_exit(NULL). Main loops forever.
-http://commons.wikimedia.org/wiki/File:Checkmark.svg (but no looping forever on main)
+![Check](http://commons.wikimedia.org/wiki/File:Checkmark.svg) (but no looping forever on main)
 
 test2b: 3 pts
    Tests thread join and retrun value with gthread_exit.
    Create a thread that exits by calling gthread_exit with a string return
    value. Main joins the thread and prints the returned value.
-http://commons.wikimedia.org/wiki/File:Checkmark.svg
+![Check](http://commons.wikimedia.org/wiki/File:Checkmark.svg)
 
 test2c: 2 pts
    Tests main calling gthread_exit.
    Create a thread that loops forever. Main prints "main exiting..." and exits
    by calling gthread_exit(NULL).
-http://commons.wikimedia.org/wiki/File:Checkmark.svg (Main exiting and thread joining on main (but not looping afterwards)
+![Check](http://commons.wikimedia.org/wiki/File:Checkmark.svg) (Main exiting and thread joining on main (but not looping afterwards)
 
 test3a: 1 pts
    Tests preemption and fair scheduling.  
