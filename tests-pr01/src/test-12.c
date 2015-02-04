@@ -13,7 +13,7 @@ void *thr1(void *in) {
 }
 
 int main() {
-    printf("Should print 'Sucess' and wait for keypress to exit.\n");
+    printf("Should print 'Sucess' and exit");
     gtthread_t t1;
 
     gtthread_init(50000L);
