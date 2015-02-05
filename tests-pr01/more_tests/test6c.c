@@ -26,6 +26,7 @@ int main()
   printf("Tests yield with only one thread.\n");
   gtthread_init(1000);
   gtthread_create(&child1, worker, NULL);
+  gtthread_create(&child2, worker, NULL);
   gtthread_join(child1,NULL);
   gtthread_join(child2,NULL);
   return 0;
