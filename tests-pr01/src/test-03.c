@@ -11,7 +11,7 @@ void* worker(void* arg)
 
 int main()
 {
-        printf("Should print 'main exit'.\n");
+        printf("Should print 'main exit'. But the worker should run forever (use your task manager to kill it).\n");
 	gtthread_t th1;
 
 	gtthread_init(1000);
