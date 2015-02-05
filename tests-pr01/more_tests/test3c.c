@@ -14,7 +14,8 @@ void* thr1(void *in) {
   int counter = 0;
   while(counter < 5){
     for(i=0;i<99999999;++i);
-    printf("Thread 1 returning\n");  
+    printf("Thread 1 returning\n"); 
+    counter++;
   }
   return NULL;
 }
@@ -25,6 +26,7 @@ void* thr2(void *in) {
   while(counter < 5){
     for(i=0;i<99999999;++i);
     printf("Thread 2 returning\n");
+    counter++;
   }
   return NULL;
 }
